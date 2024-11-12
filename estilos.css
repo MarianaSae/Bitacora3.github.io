@@ -1,0 +1,1719 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+
+}
+
+
+
+#AtM {
+    width: 100%;
+    height: auto;
+
+
+}
+
+#Contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#c1,
+#c2,
+#c3 {
+    width: 30%;
+    height: auto;
+}
+
+#foto1 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto4 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#Desc {
+    width: 100%;
+    height: 65px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#foto1B {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2B {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3B {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto4B {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*img para uikit*/
+
+#foto1Ui {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2Ui {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoUIkitCDN2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3Ui {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoUIkitCDN3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto4Ui {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#foto1Ui2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoUIkitDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2Ui2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3Ui2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoUIkitDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto4Ui2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*img para Bulma*/
+
+#foto1BUL {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2BUL {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/paso2bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3BUL {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/Paso3bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#foto1BUL2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBulDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2BUL2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBulDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3BUL2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBulDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto4BUL2 {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*imgs skeleton*/
+
+#foto1S {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2S {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoSkeCDN2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3S {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/Paso3bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#foto1Ske {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoSkeDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto2Ske {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBulDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3Ske {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoSkeDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto4Ske {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*img para materialize*/
+
+#foto1Mat {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#foto2Mat {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoMaCDN2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3Mat {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoMaCDN3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto4Mat {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#foto1Ma {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoMaDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#foto2Ma {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto3Ma {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoMaDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#foto4Ma {
+    width: 100%;
+    height: 400px;
+
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+header {
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+    background-image: url(imgs/HeaaZu.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    position: fixed;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 10px 0px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+
+    font-size: 60px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 5px solid #0cc0df;
+    background-color: #0cc0df;
+
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    background-color: #fffbd6;
+
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.DivTema {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    width: 45px;
+    height: 22px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    margin-right: 80px;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    float: right;
+    margin-top: 5px;
+}
+
+.menu li {
+    margin: 0 20px;
+    font-size: 23px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.home {
+    padding-top: 15px;
+    display: flex;
+    float: right;
+    display: flex;
+
+}
+
+.ContenedorT {
+    width: 100%;
+    
+    height: auto;
+}
+
+.OnlyT {
+    width: 90%;
+    height: auto;
+    padding: 26px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.OnlyImgs {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.ImgT {
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Item1Img {
+    width: 45%;
+    height: 400px;
+    background-color: #f45089;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgMF {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/mf.svg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgGrid {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/FvsG.svg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgBoo {
+    width: 40%;
+    height: auto;
+    background-image: url(imgs/boo.svg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgUiKit {
+    width: 40%;
+    height: auto;
+    background-image: url(imgs/UI.svg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Img1UIDNC {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Img2UIDNC {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoUIkitCDN2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3UIDNC {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoUIkitCDN3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img4UIDNC {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img1UiDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoUIkitDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2UiDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3UiDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoUIkitDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img4UiDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgAbsolutas {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/Absolutas.svg);
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgRelativas {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/relativas.svg);
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgDG {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/disgrid.svg);
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgGTA {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/GRIDTAREA.svg);
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgGCyR {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/GCRSE.jpg);
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgSintx {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/Sintaxis.svg);
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item2Txt {
+    width: 50%;
+    height: auto;
+}
+
+.Img1 {
+    width: 23%;
+    height: 300px;
+    background-color: coral;
+}
+
+.Img2 {
+    width: 23%;
+    height: 300px;
+    background-color: crimson;
+}
+
+.Img3 {
+    width: 23%;
+    height: 300px;
+    background-color: darkmagenta;
+}
+
+.Img4 {
+    width: 23%;
+    height: 300px;
+    background-color: green;
+}
+
+.Img5 {
+    width: 23%;
+    height: 300px;
+    background-color: lightpink;
+}
+
+.Img1CDN {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2CDN {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3CDN {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.Img4CDN {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.Img1AL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2AL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3AL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img4AL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN4.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pasos {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Paso1 {
+    width: 80%;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.Paso2 {
+    width: 80%;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.Paso3 {
+    width: 80%;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.Paso4 {
+    width: 80%;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.pasosP {
+    text-align: center;
+}
+
+
+.Img1F {
+    width: 23%;
+    height: 300px;
+    background-image: url(imgs/BOOstrap.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2F {
+    width: 23%;
+    height: 300px;
+    background-image: url(imgs/Bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3F {
+    width: 23%;
+    height: 300px;
+    background-image: url(imgs/Ske.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img4F {
+    width: 23%;
+    height: 300px;
+    background-image: url(imgs/UiKit.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img5F {
+    width: 23%;
+    height: 300px;
+    background-image: url(imgs/Materialize.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Item1ImgBul {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/Bulma.svg);
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img1Bulm {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2Bulm {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/paso2bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3Bulm {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/Paso3bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img1BulmDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBulDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2BulmDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBulDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3BulmDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBulDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img4BulmDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/Paso3bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Item1ImgSk {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/Ske.svg);
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img1Skeleton {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBootstrapCDN1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2Skeleton {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoSkeCDN2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3Skeleton {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/Paso3bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Img1SKELDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoSkeDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2SKELDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoBulDAL2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3SKELDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoSkeDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img4SKELDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/Paso3bul.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Item1ImgMa {
+    width: 45%;
+    height: 400px;
+    background-image: url(imgs/Materialize.svg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img2MaCDN {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoMaCDN2.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3MaCDN {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoMaCDN3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img1MaDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoMaDAL1.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Img3MaDAL {
+    width: 100%;
+    height: 350px;
+    background-image: url(imgs/PasoMaDAL3.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #0cc0df;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+#logofoot {
+    width: 200px;
+}
+
+#cont1 {
+    width: 30%;
+    height: 230px;
+    list-style: none;
+}
+
+#cont3 {
+    width: 30%;
+    height: 230px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuF {
+    padding-left: 20px;
+    color: aliceblue;
+    font-size: 22px;
+    list-style: none;
+}
+
+.menuF a {
+    text-decoration: none;
+    line-height: 20px;
+    color: aliceblue;
+}
+
+#redes {
+    width: 80px;
+}
+
+
+
+
+@media (max-width: 1100px) {
+
+    main {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    .home {
+        padding-top: 15px;
+        padding-right: 20px;
+        top: 50px;
+        display: flex;
+        float: right;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        flex-direction: column;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .logo {
+        width: 200px;
+
+
+    }
+
+
+
+    #Contenedor {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #c1,
+    #c2,
+    #c3 {
+        width: 80%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 770px) {
+
+    main {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    header {
+        height: 500px;
+        background-image: url(imgs/HeaaZu.svg);
+    }
+
+    .home {
+        padding-top: 15px;
+        padding-right: 20px;
+        top: 50px;
+        display: flex;
+        float: right;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        flex-direction: column;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .logo {
+        width: 200px;
+
+
+    }
+
+    .Img1F {
+        width: 23%;
+        height: auto;
+        background-image: url(imgs/BOOstrap.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    #c1,
+    #c2,
+    #c3 {
+        width: 80%;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    footer {
+        height: 250px;
+    }
+
+    #logofoot {
+        margin-top: 15px;
+        width: 300px;
+    }
+
+    #redes {
+        width: 60px;
+    }
+
+    .ImgT {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .Item1ImgSk {
+        width: 95%;
+        height: 300px;
+        background-image: url(imgs/Ske.svg);
+        border-radius: 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .OnlyImgs {
+        width: 80%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+    .Img1F {
+        width: 23%;
+        height: 100px;
+        background-image: url(imgs/BOOstrap.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Img2F {
+        width: 20%;
+        height: 100px;
+        background-image: url(imgs/Bul.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Img3F {
+        width: 20%;
+        height: 100px;
+        background-image: url(imgs/Ske.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Img4F {
+        width: 20%;
+        height: 100px;
+        background-image: url(imgs/UiKit.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Img5F {
+        width: 20%;
+        height: 100px;
+        background-image: url(imgs/Materialize.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    .Item2Txt {
+        width: 80%;
+        height: auto;
+    }
+
+    .OnlyT {
+        width: 90%;
+        height: auto;
+        padding: 26px;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+   
+
+    h3 {
+        width: 90%;
+        margin-left: 20px;
+        
+    }
+
+    #Desc {
+        width: 100%;
+        height:100px;
+        color: black;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    
+
+    .ContenedorT {
+        width: 100%;
+       
+        height: auto;
+    }
+
+    .Item1ImgBul {
+        width: 90%;
+        height: 200px;
+        
+    }
+
+    .Item1ImgMa {
+        width:80%;
+        height: 200px;
+        
+    }
+
+    .Item1ImgAbsolutas {
+        width: 85%;
+        height: 300px;
+        
+    }
+    
+    .Item1ImgRelativas {
+        width: 85%;
+        height: 300px;
+        
+    }
+
+
+    .Item1ImgMF {
+        width: 85%;
+        height: 250px;
+        background-image: url(imgs/mf.svg);
+        border-radius: 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .Item1ImgGrid {
+        width: 85%;
+        height: 250px;
+        background-image: url(imgs/FvsG.svg);
+        border-radius: 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+
+
+    #logofoot {
+        width: 200px;
+    }
+
+    .menuF {
+        padding-left: 20px;
+        color: aliceblue;
+        font-size: 16px;
+        list-style: none;
+    }
+
+    footer {
+        height: 330px;
+    }
+
+    .Item1ImgDG {
+        width: 90%;
+        height: 300px;
+        background-image: url(imgs/disgrid.svg);
+        border-radius: 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .Item1ImgGTA {
+        width: 90%;
+        height: 300px;
+        background-image: url(imgs/GRIDTAREA.svg);
+        border-radius: 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .Item1ImgGCyR {
+        width: 90%;
+        height: 300px;
+        background-image: url(imgs/GCRSE.jpg);
+        border-radius: 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .Item1ImgSintx {
+        width: 90%;
+        height: 250px;
+        background-image: url(imgs/Sintaxis.svg);
+        border-radius: 10px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+
+}
+
+
+@media (max-width: 580px) {
+
+    main {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    header {
+        height: 350px;
+    }
+
+    .logo {
+        width: 150px;
+        margin-top: 7px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #cont3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #redes {
+        width: 50px;
+        margin-left: 110px;
+    }
+
+    
+}
+
+
+@media (max-width: 416px) {
+
+    main {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    .logo {
+        width: 180px;
+
+    }
+
+    #contenH {
+        text-align: justify;
+    }
+
+    #cont3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #Desc {
+        font-size: 17px;
+    }
+
+    #redes {
+        width: 50px;
+    }
+
+    .hamburger {
+        right: 10px;
+    }
+}
+
+@media (max-width: 429px) {
+
+    main {
+        width: 100%;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    #logofoot {
+        margin-top: 15px;
+    }
+
+    #cont3 {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    #redes {
+        width: 50px;
+        padding-bottom: 50px;
+        margin-left: 0;
+    }
+}
